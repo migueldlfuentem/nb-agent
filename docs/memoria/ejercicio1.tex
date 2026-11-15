@@ -1,0 +1,395 @@
+% =====================================================================
+%  Ejercicio 1: análisis de las sesiones del agente NB3 de ejemplo
+%  (versión LaTeX de docs/ejercicio1/README.md)
+% =====================================================================
+\section{\texorpdfstring{Ejercicio 1: análisis de las sesiones de negociación del agente NB\textsuperscript{3} de ejemplo}{Ejercicio 1: análisis de las sesiones de negociación del agente NB3 de ejemplo}}
+\label{sec:ej1}
+
+% ---------------------------------------------------------------------
+\subsection*{Enunciado}
+\addcontentsline{toc}{subsection}{Enunciado}
+
+\begin{otherlanguage}{english}
+\begin{quote}
+  \textit{Manual NB\textsuperscript{3}, section 5: Exercises, Exercise 1}
+
+  Start a negotiation session by running the class \code{RunMarketAndFiveAgents}. After 30 seconds
+  you should see the results of the negotiations.
+
+  Now go to the \code{logfolderPath} specified in the source code of this class and check that
+  indeed a folder has been created with the log files for all negotiators and the server.
+
+  Open the server log file and determine how many proposals each agent has made. For each proposal
+  message sent, the log file should contain something like:
+
+\begin{lstlisting}
+sent message:
+message ID: Bob 1
+conversation ID:
+from: Bob
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: Bob1
+Participants: [Bob, Charles]
+Proposed Deal: [agent 2 gives 7 units of 1 to agent 3, agent 3 gives 10 units of 0 to agent 2, agent 3 gives 10 units of 2 to agent 2]
+\end{lstlisting}
+
+  Of course, the details are different for each proposal. The line \code{particle: PROPOSE}
+  indicates that this is a proposal. The log will also contain messages of type \code{REGISTER},
+  \code{INFORM} and \code{START}. You can ignore these, they form part of the communication protocol.
+
+  If the negotiations were successful you will also find messages of type \code{ACCEPT} and
+  \code{CONFIRM}. \textbf{How many times has a proposal been accepted? How many proposals have been
+  confirmed?}
+
+  Remember that the instance of the CommodityMarket is created randomly every time you run a new
+  negotiation session. Therefore, in some cases the agents may not find any good proposal at all, so
+  you may need to run several negotiation sessions before anything interesting happens. If after a
+  couple of times the agents still don't make any proposals it may be better to continue with the
+  other exercises to improve the agent and get back to this exercise with your improved agent.
+\end{quote}
+\end{otherlanguage}
+
+Por coherencia con la práctica, a lo largo de esta documentación se mantienen en inglés los nombres
+de las materias primas (\emph{Gold}, \emph{Oil}, \emph{Iron}, \emph{Grain} y \emph{Wood}).
+
+% ---------------------------------------------------------------------
+\subsection*{Sesiones realizadas}
+\addcontentsline{toc}{subsection}{Sesiones realizadas}
+
+Se han realizado \textbf{7 sesiones} independientes de 30\,s. Cada una genera una instancia
+aleatoria distinta del mercado (activos y requisitos). En cada sesión se crea la carpeta de logs con
+un \code{server.log}, y dos logs por agente: \code{<Agente>\_nego.log} y \code{<Agente>\_search.log}.
+
+Los logs de cada sesión están disponibles en el repositorio, en
+\repo{docs/ejercicio1/logs}{\code{docs/ejercicio1/logs/}}:
+
+\begin{itemize}
+  \item \code{server.log}: todos los mensajes intercambiados, los activos y requisitos iniciales y
+        las decisiones del Notario.
+  \item \code{console.log}: salida de la sesión, que incluye la tabla final de utilidades
+        (antes/después).
+  \item \code{<Agente>\_nego.log}: decisiones de cada agente (\code{WAIT}, \code{PROPOSE},
+        \code{ACCEPT}) y sus niveles de aspiración.
+\end{itemize}
+
+Los \code{<Agente>\_search.log} (árbol de búsqueda) no se incluyen porque ocupan entre 20 y 80\,MB
+por agente y sesión.
+
+% ---------------------------------------------------------------------
+\subsection{Cómo se han contado los mensajes}
+\label{sec:ej1-conteo}
+
+El enunciado sugiere contar las propuestas buscando en el log las entradas con
+\code{particle: PROPOSE}. Sin embargo, al analizar los logs se ha detectado que \textbf{sumar las
+ocurrencias de \code{PROPOSE} no es válido, porque duplica registros}. El servidor escribe cada
+mensaje varias veces (\emph{broadcast}): una al recibirlo del emisor (\code{received message:}) y
+otra por cada destinatario al que lo reenvía (\code{sent message:}). Una misma propuesta aparece,
+por tanto, como mínimo dos veces, y más si va dirigida a varios agentes. La diferencia es
+considerable (tabla~\ref{tab:ej1-conteo}).
+
+\begin{table}[htbp]
+  \centering
+  \caption{Propuestas reales frente a las entradas que aparecen en \code{server.log}.}
+  \label{tab:ej1-conteo}
+  \begin{tabular}{cccc}
+    \toprule
+    Sesión & Propuestas reales            & Entradas            & Total de líneas         \\
+           & (\code{received message})    & \code{sent message} & \code{particle: PROPOSE} \\
+    \midrule
+    1 & 2  & 2  & 4  \\
+    4 & 38 & 49 & 87 \\
+    6 & 31 & 33 & 64 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Ni siquiera contar solo los bloques \code{sent message}, como en el ejemplo del enunciado, da el
+número correcto. En la sesión~4 había propuestas a tres bandas (\code{[Bob, Eve, Charles]}) que se
+reenviaron a dos destinatarios y figuran dos veces. Por ello se ha seguido este criterio:
+
+\begin{itemize}
+  \item \textbf{PROPOSE} y \textbf{ACCEPT} se cuentan solo en los bloques \code{received message:}:
+        cada bloque corresponde a un único mensaje enviado por un agente.
+  \item \textbf{CONFIRM} e \textbf{ILLEGAL} se cuentan como \textbf{IDs de propuesta distintos},
+        porque los envía el \code{NOTARY} una vez por destinatario.
+  \item \code{agent N} se traduce al nombre del agente con el orden de la tabla
+        \code{REQUIREMENTS}. Ese orden es el del registro en el Notario, y sirve también como mapa
+        ID~$\rightarrow$~nombre: es el array \code{agentNames} con el que se inicializa el algoritmo
+        NB\textsuperscript{3}.
+\end{itemize}
+
+% ---------------------------------------------------------------------
+\subsection{Resultados}
+\label{sec:ej1-resultados}
+
+Esta sección presenta los datos extraídos de los logs de las 7 sesiones: la actividad de cada
+sesión, las propuestas de cada agente y los acuerdos alcanzados. Aquí se describen los resultados;
+sus causas se analizan en la sección~\ref{sec:ej1-interpretacion}.
+
+\subsubsection{Resumen por sesión}
+\label{sec:ej1-resumen}
+
+La tabla~\ref{tab:ej1-resumen} recoge, para cada sesión, el número de propuestas realizadas, los
+mensajes de aceptación (\code{ACCEPT}), los acuerdos confirmados por el Notario (\code{CONFIRM}) y las
+propuestas declaradas ilegales (\code{ILLEGAL}), junto con un enlace a sus logs.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Resumen de las 7 sesiones de negociación.}
+  \label{tab:ej1-resumen}
+  \begin{tabular}{clcccc}
+    \toprule
+    Sesión & Logs & Propuestas & ACCEPT & Confirmados & ILLEGAL \\
+    \midrule
+    1 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion1_2026-11-14__20-28-22}{\code{sesion1}} & 2  & 1  & 1 & 0 \\
+    2 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion2_2026-11-14__20-28-56}{\code{sesion2}} & 0  & 0  & 0 & 0 \\
+    3 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion3_2026-11-14__20-29-31}{\code{sesion3}} & 0  & 0  & 0 & 0 \\
+    4 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion4_2026-11-14__20-30-05}{\code{sesion4}} & 38 & 12 & 2 & 0 \\
+    5 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion5_2026-11-14__20-30-41}{\code{sesion5}} & 15 & 1  & 1 & 0 \\
+    6 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion6_2026-11-14__20-31-14}{\code{sesion6}} & 31 & 3  & 1 & 1 \\
+    7 & \href{https://github.com/migueldlfuentem/nb-agent/tree/main/docs/ejercicio1/logs/sesion7_2026-11-14__20-32-49}{\code{sesion7}} & 0  & 0  & 0 & 0 \\
+    \midrule
+    \textbf{Total} & & \textbf{86} & \textbf{17} & \textbf{5} & \textbf{1} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+La actividad varía mucho de una sesión a otra: en 3 de las 7 no se hizo ninguna propuesta, mientras
+que las sesiones 4 y 6 concentran 69 de las 86. Además, el número de acuerdos confirmados es muy
+inferior al de aceptaciones (5 frente a 17), y una propuesta llegó a declararse ilegal (ver
+secciones~\ref{sec:ej1-sin-actividad} y~\ref{sec:ej1-aceptaciones}).
+
+\subsubsection{Propuestas por agente}
+\label{sec:ej1-por-agente}
+
+La tabla~\ref{tab:ej1-por-agente} desglosa las propuestas de la tabla anterior según el agente que
+las realizó, con una columna por sesión (S1--S7) y el total acumulado de cada agente.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Propuestas realizadas por cada agente en cada sesión.}
+  \label{tab:ej1-por-agente}
+  \begin{tabular}{lcccccccc}
+    \toprule
+    Agente & S1 & S2 & S3 & S4 & S5 & S6 & S7 & \textbf{Total} \\
+    \midrule
+    Alice   & 0 & 0 & 0 & 0  & 15 & 0  & 0 & \textbf{15} \\
+    Bob     & 0 & 0 & 0 & 23 & 0  & 0  & 0 & \textbf{23} \\
+    Charles & 1 & 0 & 0 & 0  & 0  & 24 & 0 & \textbf{25} \\
+    David   & 1 & 0 & 0 & 14 & 0  & 0  & 0 & \textbf{15} \\
+    Eve     & 0 & 0 & 0 & 1  & 0  & 7  & 0 & \textbf{8}  \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+En cada sesión con actividad solo proponen uno o dos agentes, y quiénes son cambia de una sesión a
+otra. Ningún agente destaca de forma sistemática, algo esperable porque los cinco ejecutan el mismo
+código: el número de propuestas depende de la instancia (activos y requisitos de cada agente), no
+del agente.
+
+\subsubsection{Acuerdos confirmados y efecto en la utilidad}
+\label{sec:ej1-acuerdos}
+
+La tabla~\ref{tab:ej1-acuerdos} detalla los 5 acuerdos confirmados: quién lo propuso (el prefijo
+del ID de la propuesta), qué agentes participaron, qué intercambios incluía y cómo cambió la utilidad
+(dólares producidos) de cada participante entre el inicio y el final de la sesión.
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Acuerdos confirmados y variación de utilidad de los participantes.}
+  \label{tab:ej1-acuerdos}
+  \begin{tabularx}{\textwidth}{c l l Y Y}
+    \toprule
+    Sesión & Acuerdo & Participantes & Contenido & Ganancia de utilidad \\
+    \midrule
+    1 & \code{David1}  & David, Bob     & David da 6 Wood; Bob da 10 Gold
+      & David $12\rightarrow14$ (+2), Bob $2\rightarrow4$ (+2) \\
+    4 & \code{David34} & David, Charles & David da 4 Grain; Charles da 150 Gold (15 acciones de 10)
+      & David $13\rightarrow30$ (+17), Charles $15\rightarrow17$ (+2) \\
+    4 & \code{Bob7}    & Bob, Eve       & Bob da 7 Gold; Eve da 70 Iron (7 acciones de 10)
+      & Bob $4\rightarrow18$ (+14), Eve $15\rightarrow17$ (+2) \\
+    5 & \code{Alice13} & Alice, Bob     & Alice da 2 Gold; Bob da 130 Wood (13 acciones de 10)
+      & Alice $25\rightarrow39$ (+14), Bob $5\rightarrow6$ (+1) \\
+    6 & \code{Eve2}    & Eve, Bob       & Eve da 8 Grain; Bob da 20 Iron (2 acciones de 10)
+      & Eve $20\rightarrow23$ (+3), Bob $22\rightarrow26$ (+4) \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Los 5 acuerdos confirmados son bilaterales, y en la mayoría la ganancia se reparte de forma muy
+desigual: en 3 de ellos el proponente gana entre 7 y 14 veces más que el otro participante (ver
+sección~\ref{sec:ej1-proponente}). También destaca que 4 de los 5 acuerdos repiten la misma acción
+de 10 unidades varias veces (ver sección~\ref{sec:ej1-repetidas}).
+
+En las 7 sesiones \textbf{ningún agente terminó con menos utilidad de la inicial}, y en cada acuerdo
+confirmado \textbf{todos los participantes ganan}. Es lo que el manual describe como resultado
+correcto (sección~3.1 del manual).
+
+% ---------------------------------------------------------------------
+\subsection{Respuestas al ejercicio}
+\label{sec:ej1-respuestas}
+
+Antes de responder a las preguntas del enunciado conviene señalar que los ejercicios se resuelven en
+orden, de modo que para obtener estos resultados no se ha aplicado ninguna mejora sobre los agentes.
+Con este contexto, las respuestas son las siguientes:
+
+\begin{itemize}
+  \item \textbf{¿Cuántas propuestas ha hecho cada agente?} Depende mucho de la sesión: entre 0 y 24
+        por agente y sesión (tabla~\ref{tab:ej1-por-agente}). En total hubo 86 propuestas en 7
+        sesiones, y en 3 sesiones nadie propuso nada. En cada sesión con actividad solo proponen 1 o
+        2 agentes. Esto se mejorará en los ejercicios 2 y 3 de la práctica.
+  \item \textbf{¿Cuántas veces se ha aceptado una propuesta?} 17 mensajes \code{ACCEPT} en total
+        (1, 0, 0, 12, 1, 3, 0).
+  \item \textbf{¿Cuántas propuestas se han confirmado?} 5 acuerdos (1, 0, 0, 2, 1, 1, 0), además de
+        1 propuesta declarada \code{ILLEGAL}. Hubo acuerdo en 4 de las 7 sesiones.
+\end{itemize}
+
+% ---------------------------------------------------------------------
+\subsection{Interpretación}
+\label{sec:ej1-interpretacion}
+
+\subsubsection{Por qué en algunas sesiones no pasa nada}
+\label{sec:ej1-sin-actividad}
+
+En las sesiones sin propuestas, todos los \code{*\_nego.log} contienen solo decisiones \code{WAIT}:
+
+\begin{lstlisting}
+Decision: WAIT, at time 29675 Currently none of the deals found by me or proposed to me is selfish enough.
+my aspiration level: 0.0116 opponent aspiration level: 0.9896
+\end{lstlisting}
+
+Al final de la sesión la aspiración propia $m^{\alpha}_{\alpha}(t)$ ha bajado casi a 0 y la del
+oponente $m^{\alpha}_{\beta}(t)$ ha subido casi a 1. Aun así, ningún agente encontró un plan que le
+diera utilidad normalizada positiva. Es decir, en esa instancia no existe ningún acuerdo rentable, o
+la búsqueda no lo encontró en 30\,s (el espacio de acuerdos es enorme). El enunciado de la práctica
+ya advierte de que puede ocurrir: \foreignquote{english}{you may need to run a couple of negotiation
+sessions before you see any positive result}.
+
+Los valores del log coinciden con las fórmulas (1) y (2) del manual para los grados de concesión por
+defecto, $a_1 = 2$ y $a_2 = 4$:
+\begin{equation}
+  m^{\alpha}_{\alpha}(t) = 1 - \frac{e^{-a_1 \frac{t}{t_{dead}}} - 1}{e^{-a_1} - 1},
+  \qquad
+  m^{\alpha}_{\beta}(t) = \frac{e^{-a_2 \frac{t}{t_{dead}}} - 1}{e^{-a_2} - 1}.
+\end{equation}
+Por ejemplo, en $t = 6$\,s de 30 ($t/t_{dead} = 0{,}2$):
+\begin{equation}
+  m^{\alpha}_{\alpha} = 1 - \frac{e^{-0{,}4} - 1}{e^{-2} - 1} \approx 0{,}619,
+  \qquad
+  m^{\alpha}_{\beta} = \frac{e^{-0{,}8} - 1}{e^{-4} - 1} \approx 0{,}561.
+\end{equation}
+El log muestra 0,621 y 0,557. Los agentes deciden cada 300\,ms (el 1\,\% de la duración de la
+sesión), así que salen 100 decisiones por agente.
+
+\subsubsection{Muchas aceptaciones, pocas confirmaciones}
+\label{sec:ej1-aceptaciones}
+
+En el protocolo no estructurado un acuerdo solo es \textbf{vinculante cuando lo aceptan todos sus
+participantes}. Proponer cuenta como aceptar.
+
+\begin{itemize}
+  \item \textbf{Sesión 4:} Charles aceptó 10 propuestas de Bob (\code{Bob21}, \code{Bob23}, \ldots),
+        pero todas eran a tres bandas (\code{[Bob, Eve, Charles]}) y Eve nunca las aceptó, así que no
+        se confirmó ninguna. Lo que sí se confirmó fueron dos acuerdos bilaterales (\code{David34} y
+        \code{Bob7}).
+  \item \textbf{Sesión 6, el ILLEGAL:} Charles propuso \code{Charles10}, que contiene exactamente las
+        mismas acciones de \code{Eve2} (ya confirmado) más un intercambio propio con Eve. Eve tenía 14
+        de grano y en \code{Eve2} ya había dado 8. \code{Charles10} le pide dar otras 8, lo que la
+        dejaría con $-2$. Cuando Bob acepta, el Notario detecta la incompatibilidad con un acuerdo
+        anterior y lo marca \textbf{ILLEGAL}. En sus logs, los agentes lo reflejan como
+        \foreignquote{english}{Proposal Charles10 is inconsistent with earlier confirmed agreements}.
+\end{itemize}
+
+\subsubsection{El proponente se lleva la mayor parte de la ganancia}
+\label{sec:ej1-proponente}
+
+En 3 de los 5 acuerdos el proponente gana mucho más que quien acepta (+17 frente a +2, +14 frente a
++2, +14 frente a +1). Encaja con la estrategia NB\textsuperscript{3} (sección~2.4.1 del manual):
+
+\begin{itemize}
+  \item al \textbf{proponer}, el agente elige el plan \textbf{más egoísta} de entre los que superan
+        la aspiración del oponente;
+  \item al \textbf{aceptar}, basta con que el plan sea individualmente racional y supere la
+        aspiración propia, que baja con el tiempo.
+\end{itemize}
+
+Quien encuentra primero el acuerdo fija un reparto favorable para sí, y el otro lo acepta porque
+mejora su situación aunque sea poco. NB\textsuperscript{3} nunca rechaza: las propuestas malas
+simplemente se ignoran.
+
+\subsubsection{Acciones repetidas en los acuerdos}
+\label{sec:ej1-repetidas}
+
+Al confirmar un acuerdo, el log muestra una sola acción para un participante y la misma acción
+repetida muchas veces para el otro. Por ejemplo, \code{Bob7} en la sesión~4:
+
+\begin{lstlisting}
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [Bob, Eve]
+Bob supplies 7 units of GOLD to Eve
+Eve supplies 10 units of IRON to Bob      (×7)
+\end{lstlisting}
+
+Es literal: el acuerdo tiene 8 acciones y 7 son idénticas. El motivo es que \code{getSplitLabels()},
+al crear los nodos de cantidad, solo genera valores de 1 a 10 (\code{int maxValue = 10;}). Por tanto
+una acción mueve como mucho 10 unidades, y para transferir más la búsqueda tiene que encadenar varias
+acciones con el mismo proveedor, mercancía y consumidor. El límite lo pone el agente; el dominio
+admitiría hasta 99 unidades por transacción (\code{CommodityAssets.MAX\_TRANSACTION\_VALUE}).
+
+Que un lado tenga 1 acción y el otro 7 depende de lo que necesita cada uno
+(tabla~\ref{tab:ej1-cuello}).
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Cuello de botella de cada participante en el acuerdo \code{Bob7} (sesión 4).}
+  \label{tab:ej1-cuello}
+  \begin{tabular}{lllll}
+    \toprule
+        & Requisitos por dólar & Activos iniciales & Cuello de botella & Con el acuerdo \\
+    \midrule
+    Bob & 4 Oil, 5 Iron  & 88 Oil, 20 Iron  & Iron: $20/5 = 4$  & +70 Iron $\rightarrow 90/5 = \mathbf{18}$ \\
+    Eve & 5 Gold, 7 Wood & 78 Gold, 151 Wood & Gold: $78/5 = 15$ & +7 Gold $\rightarrow 85/5 = \mathbf{17}$  \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Bob necesita mucho hierro (70 unidades = 7 acciones de 10), mientras que a Eve le bastan 7 unidades
+de oro (1 acción). A continuación se detallan algunas consecuencias derivadas de esta situación:
+
+\begin{itemize}
+  \item \textbf{Ramas muy profundas.} Cada acción ocupa 4 niveles del árbol (proveedor
+        $\rightarrow$ mercancía $\rightarrow$ cantidad $\rightarrow$ consumidor), así que \code{Bob7}
+        necesita 32 niveles y \code{Alice13} (130 de madera, 14 acciones), 56. Los acuerdos que
+        requieren grandes cantidades son difíciles de alcanzar en 30\,s.
+  \item \textbf{Representaciones múltiples.} La misma transferencia total puede componerse de muchas
+        formas (10+10+\ldots, 9+10+\ldots), y eso va en contra de la recomendación de la sección~4
+        del manual de que cada acuerdo tenga una única representación en el árbol.
+\end{itemize}
+
+Es un margen de mejora claro del agente: por ejemplo, cantidades con saltos crecientes (1, 2, 5, 10,
+20, 50\ldots) o ajustadas a lo que realmente necesita el consumidor.
+
+\subsubsection{El ruido en los modelos de los oponentes}
+\label{sec:ej1-ruido}
+
+Cada agente conoce sus propios requisitos exactos, pero los de los demás le llegan \textbf{con
+ruido}. Por eso calcula las cotas y la utilidad de los oponentes de forma aproximada. En estas 7
+sesiones no causó pérdidas, pero sí lo observamos en una ejecución exploratoria previa (un agente
+bajó de 3 a 0 de utilidad). Así que no está garantizado que el resultado sea individualmente
+racional para todos.
+
+% ---------------------------------------------------------------------
+\subsection{Conclusiones}
+\label{sec:ej1-conclusiones}
+
+\begin{itemize}
+  \item Al ser instancias aleatorias, los números concretos cambian de una sesión a otra. Sin
+        embargo, el comportamiento cualitativo se repite: sesiones sin acuerdo, muchas más
+        aceptaciones que confirmaciones, ventaja del proponente y acciones repetidas.
+  \item El agente de ejemplo es funcional pero conservador. Con los grados de concesión por defecto
+        y 30\,s de búsqueda, solo en algo más de la mitad de las sesiones llega a algún acuerdo. Los
+        ejercicios 2 (mejor cota superior, más poda) y 3 (ajuste de los grados de concesión) atacan
+        precisamente estas limitaciones.
+\end{itemize}

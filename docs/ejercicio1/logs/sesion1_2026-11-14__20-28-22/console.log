@@ -1,0 +1,83 @@
+>> Compilando...
+Note: src/commodityMarket/agent/CmNB3Algorithm.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+>> Ejecutando commodityMarket.agent.RunMarketAndFiveAgents
+RunFiveAgents.main() starting agent Alice
+RunFiveAgents.main() starting agent Bob
+RunFiveAgents.main() starting agent Charles
+RunFiveAgents.main() starting agent David
+CmNegotiator.negotiate() Alice waiting for start message.
+RunFiveAgents.main() starting agent Eve
+CmNegotiator.negotiate() Bob waiting for start message.
+CmNegotiator.negotiate() Charles waiting for start message.
+CmNegotiator.negotiate() David waiting for start message.
+CmNegotiator.negotiate() Eve waiting for start message.
+CommodityMarketNotary.processAgentEntering() Five agents have registered. Let's start!
+
+REQUIREMENTS
+                GOLD       OIL      IRON     GRAIN      WOOD
+ Charles:          8         0         2         0         0
+   David:          5         0         0         2         0
+     Bob:          0        10         0         0         3
+   Alice:          0         5         0         0        10
+     Eve:          5         0         0         0         5
+ASSETS
+ Charles:         46        80       135       156        95
+   David:         62       190       141       223       186
+     Bob:         10       217       267         0         8
+   Alice:        197        44       181        57        24
+     Eve:        152        81       162       289       102
+CmNegotiator.negotiate() Eve Has received start message.
+CmNegotiator.negotiate() David Has received start message.
+CmNegotiator.negotiate() Alice Has received start message.
+CmNegotiator.negotiate() Charles Has received start message.
+CmNegotiator.negotiate() Bob Has received start message.
+
+Negotiation Sever started!
+
+29 seconds to go till deadline.
+28 seconds to go till deadline.
+27 seconds to go till deadline.
+26 seconds to go till deadline.
+25 seconds to go till deadline.
+24 seconds to go till deadline.
+23 seconds to go till deadline.
+22 seconds to go till deadline.
+21 seconds to go till deadline.
+20 seconds to go till deadline.
+19 seconds to go till deadline.
+18 seconds to go till deadline.
+17 seconds to go till deadline.
+16 seconds to go till deadline.
+15 seconds to go till deadline.
+14 seconds to go till deadline.
+13 seconds to go till deadline.
+12 seconds to go till deadline.
+11 seconds to go till deadline.
+10 seconds to go till deadline.
+9 seconds to go till deadline.
+8 seconds to go till deadline.
+7 seconds to go till deadline.
+6 seconds to go till deadline.
+5 seconds to go till deadline.
+4 seconds to go till deadline.
+3 seconds to go till deadline.
+2 seconds to go till deadline.
+1 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal David1 accepted by: Bob
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [David, Bob]
+David supplies 6 units of WOOD to Bob
+Bob supplies 10 units of GOLD to David
+
+Notary.handleIncomingMessage() proposal CONFIRMED: David1
+UTILITIES:
+              BEFORE     AFTER
+ Charles:          5         5
+   David:         12        14
+     Bob:          2         4
+   Alice:          2         2
+     Eve:         20        20
+Server has stopped.
+Negotiations have finished!

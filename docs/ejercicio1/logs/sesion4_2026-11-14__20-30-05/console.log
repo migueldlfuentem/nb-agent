@@ -1,0 +1,119 @@
+>> Compilando...
+Note: src/commodityMarket/agent/CmNB3Algorithm.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+>> Ejecutando commodityMarket.agent.RunMarketAndFiveAgents
+RunFiveAgents.main() starting agent Alice
+RunFiveAgents.main() starting agent Bob
+RunFiveAgents.main() starting agent Charles
+RunFiveAgents.main() starting agent David
+CmNegotiator.negotiate() Alice waiting for start message.
+CmNegotiator.negotiate() Bob waiting for start message.
+RunFiveAgents.main() starting agent Eve
+CmNegotiator.negotiate() Charles waiting for start message.
+CmNegotiator.negotiate() David waiting for start message.
+CmNegotiator.negotiate() Eve waiting for start message.
+CommodityMarketNotary.processAgentEntering() Five agents have registered. Let's start!
+
+REQUIREMENTS
+                GOLD       OIL      IRON     GRAIN      WOOD
+     Bob:          0         4         5         0         0
+     Eve:          5         0         0         0         7
+   David:          9         0         0         3         0
+   Alice:          0         0         6         0         7
+ Charles:          0         0         9         2         0
+ASSETS
+     Bob:         76        88        20        91        97
+     Eve:         78        70       114        75       151
+   David:        124        36        55       276        27
+   Alice:         36       277       170       267       174
+ Charles:        150       300       255        30       235
+CmNegotiator.negotiate() Bob Has received start message.
+CmNegotiator.negotiate() Eve Has received start message.
+CmNegotiator.negotiate() Alice Has received start message.
+CmNegotiator.negotiate() Charles Has received start message.
+CmNegotiator.negotiate() David Has received start message.
+
+Negotiation Sever started!
+
+29 seconds to go till deadline.
+28 seconds to go till deadline.
+27 seconds to go till deadline.
+26 seconds to go till deadline.
+25 seconds to go till deadline.
+24 seconds to go till deadline.
+23 seconds to go till deadline.
+22 seconds to go till deadline.
+21 seconds to go till deadline.
+20 seconds to go till deadline.
+19 seconds to go till deadline.
+18 seconds to go till deadline.
+17 seconds to go till deadline.
+16 seconds to go till deadline.
+15 seconds to go till deadline.
+14 seconds to go till deadline.
+13 seconds to go till deadline.
+12 seconds to go till deadline.
+11 seconds to go till deadline.
+10 seconds to go till deadline.
+9 seconds to go till deadline.
+8 seconds to go till deadline.
+7 seconds to go till deadline.
+6 seconds to go till deadline.
+5 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal Bob28 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob42 accepted by: Charles
+4 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal Bob71 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob62 accepted by: Charles
+3 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal Bob52 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob70 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob21 accepted by: Charles
+2 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal Bob69 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob41 accepted by: Charles
+Notary.handleIncomingMessage() proposal Bob23 accepted by: Charles
+1 seconds to go till deadline.
+Notary.handleIncomingMessage() proposal David34 accepted by: Charles
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [David, Charles]
+David supplies 4 units of GRAIN to Charles
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+
+Notary.handleIncomingMessage() proposal CONFIRMED: David34
+Notary.handleIncomingMessage() proposal Bob7 accepted by: Eve
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [Bob, Eve]
+Bob supplies 7 units of GOLD to Eve
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+
+Notary.handleIncomingMessage() proposal CONFIRMED: Bob7
+UTILITIES:
+              BEFORE     AFTER
+     Bob:          4        18
+     Eve:         15        17
+   David:         13        30
+   Alice:         24        24
+ Charles:         15        17
+Server has stopped.
+Negotiations have finished!

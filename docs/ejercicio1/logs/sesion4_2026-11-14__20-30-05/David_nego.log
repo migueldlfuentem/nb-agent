@@ -1,0 +1,522 @@
+
+Decision: WAIT, at time 1 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.9999232425524827 opponent aspiration level: 1.3521093855991577E-4
+Decision: WAIT, at time 298 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.9773524992468798 opponent aspiration level: 0.0395011305109978
+Decision: WAIT, at time 597 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.9550792218938207 opponent aspiration level: 0.07757985413037104
+Decision: WAIT, at time 896 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.9332479802612348 opponent aspiration level: 0.11416215401435766
+Decision: WAIT, at time 1195 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.9118500017030914 opponent aspiration level: 0.1493068368608452
+Decision: WAIT, at time 1494 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.8908766876753936 opponent aspiration level: 0.18307039837275738
+Decision: WAIT, at time 1793 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.870319610280949 opponent aspiration level: 0.21550711407590115
+Decision: WAIT, at time 2092 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.8501705088827103 opponent aspiration level: 0.24666912656784082
+Decision: WAIT, at time 2391 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.8304212867843286 opponent aspiration level: 0.27660652933805047
+Decision: WAIT, at time 2690 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.8110640079765847 opponent aspiration level: 0.3053674472940902
+Decision: WAIT, at time 2989 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7920908939483908 opponent aspiration level: 0.3329981141232505
+Decision: WAIT, at time 3289 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7734327480215064 opponent aspiration level: 0.35962995175436074
+Decision: WAIT, at time 3588 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7552064644144891 opponent aspiration level: 0.3851282020553956
+Decision: WAIT, at time 3886 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7374010526952832 opponent aspiration level: 0.409544116839193
+Decision: WAIT, at time 4185 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7198898545312807 opponent aspiration level: 0.43308083234427314
+Decision: WAIT, at time 4485 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.7026693555550436 opponent aspiration level: 0.4557667121160707
+Decision: WAIT, at time 4784 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6858474430549917 opponent aspiration level: 0.4774869647224757
+Decision: WAIT, at time 5083 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6693593784253644 opponent aspiration level: 0.49835365138839116
+Decision: WAIT, at time 5381 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6532520476324672 opponent aspiration level: 0.5183346005688342
+Decision: WAIT, at time 5681 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6373584220732795 opponent aspiration level: 0.5376591829783958
+Decision: WAIT, at time 5979 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6218840797269793 opponent aspiration level: 0.5561005606080069
+Decision: WAIT, at time 6278 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.6066654327472304 opponent aspiration level: 0.5738778776830954
+Decision: WAIT, at time 6577 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5917488152118102 opponent aspiration level: 0.5909565789251382
+Decision: WAIT, at time 6878 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5770314199151333 opponent aspiration level: 0.6074716683661929
+Decision: WAIT, at time 7176 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5627503636370299 opponent aspiration level: 0.6231785373389298
+Decision: WAIT, at time 7477 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5486122827592569 opponent aspiration level: 0.638419062908424
+Decision: WAIT, at time 7776 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5348477887112753 opponent aspiration level: 0.6529614143913056
+Decision: WAIT, at time 8075 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5213564649716861 opponent aspiration level: 0.6669322782333503
+Decision: WAIT, at time 8388 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.5075201987619791 opponent aspiration level: 0.6809694687860698
+Decision: WAIT, at time 8672 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.4952146673571861 opponent aspiration level: 0.6932062249051588
+Decision: WAIT, at time 8973 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.48242577585060176 opponent aspiration level: 0.7056767524678701
+Decision: WAIT, at time 9273 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.46993359534955026 opponent aspiration level: 0.7176150023536289
+Decision: WAIT, at time 9572 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.45773055944370766 opponent aspiration level: 0.7290450992158816
+Decision: WAIT, at time 9871 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.44576970512987324 opponent aspiration level: 0.7400260143142334
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	43		44		-
+oppAsp	75		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David34
+node id: 816
+David normalized utility: 0.44186047
+Charles normalized utility: 0.03773585
+my asp level: 0.4340462260693655
+opp asp level: 0.750575399665063
+my orig gub: 58.0
+my e: 34.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 10469 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.4225554113101557 opponent aspiration level: 0.7607102135930026
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	41		42		-
+oppAsp	77		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David33
+node id: 809
+David normalized utility: 0.41860464
+Charles normalized utility: 0.03773585
+my asp level: 0.411292643393824
+opp asp level: 0.7704467479917465
+my orig gub: 58.0
+my e: 33.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 11068 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.4002168459780032 opponent aspiration level: 0.7798313135109329
+Decision: WAIT, at time 11371 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.38925413294366273 opponent aspiration level: 0.7889342010202577
+Decision: WAIT, at time 11671 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.378617160198529 opponent aspiration level: 0.7975898623702405
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	37		37		-
+oppAsp	81		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David32
+node id: 802
+David normalized utility: 0.37209302
+Charles normalized utility: 0.03773585
+my asp level: 0.3681919878866662
+opp asp level: 0.8059042572604529
+my orig gub: 58.0
+my e: 31.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 12271 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.3579743986969457 opponent aspiration level: 0.8138908407917649
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	35		35		-
+oppAsp	82		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David30
+node id: 795
+David normalized utility: 0.3488372
+Charles normalized utility: 0.03773585
+my asp level: 0.3479933063053642
+opp asp level: 0.8215374744470267
+my orig gub: 58.0
+my e: 30.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 12884 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.337724659303266 opponent aspiration level: 0.8292444435474086
+Decision: WAIT, at time 13186 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.32805030060695417 opponent aspiration level: 0.8363569560452399
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	32		33		-
+oppAsp	84		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David29
+node id: 788
+David normalized utility: 0.3255814
+Charles normalized utility: 0.03773585
+my asp level: 0.31822814170470015
+opp asp level: 0.8434308132478282
+my orig gub: 58.0
+my e: 29.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 13807 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.3087620096309769 opponent aspiration level: 0.8501078014988429
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	30		30		-
+oppAsp	86		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David27
+node id: 781
+David normalized utility: 0.30232558
+Charles normalized utility: 0.03773585
+my asp level: 0.2994595438320151
+opp asp level: 0.8565350337604818
+my orig gub: 58.0
+my e: 28.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 14415 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.29063973792821085 opponent aspiration level: 0.8625058291399479
+Decision: WAIT, at time 14715 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.2819663475002908 opponent aspiration level: 0.8682607844603424
+Decision: WAIT, at time 15015 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.2734656592024388 opponent aspiration level: 0.8737888393569658
+Decision: WAIT, at time 15316 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.26510674208501805 opponent aspiration level: 0.8791162853832765
+Decision: WAIT, at time 15614 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.2569956488262237 opponent aspiration level: 0.8841830152361936
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	25		26		-
+oppAsp	89		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David26
+node id: 774
+David normalized utility: 0.25581396
+Charles normalized utility: 0.03773585
+my asp level: 0.24899217011280594
+opp asp level: 0.8890833048923786
+my orig gub: 58.0
+my e: 26.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 16214 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.24114805443432252 opponent aspiration level: 0.8937903909982862
+Decision: WAIT, at time 16515 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.23343475987293116 opponent aspiration level: 0.8983266605613354
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	23		23		-
+oppAsp	90		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David25
+node id: 767
+David normalized utility: 0.23255815
+Charles normalized utility: 0.03773585
+my asp level: 0.22597501477888637
+opp asp level: 0.9026267417220993
+my orig gub: 58.0
+my e: 25.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 17111 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.2186135836902816 opponent aspiration level: 0.9067862178334168
+Decision: WAIT, at time 17413 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.21132658335219 opponent aspiration level: 0.9108215217645441
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	20		21		-
+oppAsp	91		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David24
+node id: 760
+David normalized utility: 0.20930232
+Charles normalized utility: 0.03773585
+my asp level: 0.20402182705690142
+opp asp level: 0.9147846606588347
+my orig gub: 58.0
+my e: 24.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 18026 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.1969814401332859 opponent aspiration level: 0.9185266735809939
+Decision: WAIT, at time 18321 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.19028530398974364 opponent aspiration level: 0.9220149546285632
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	18		19		-
+oppAsp	93		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David22
+node id: 753
+David normalized utility: 0.18604651
+Charles normalized utility: 0.03773585
+my asp level: 0.18316988770863574
+opp asp level: 0.9256460535731484
+my orig gub: 58.0
+my e: 23.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 18940 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.17665796766793518 opponent aspiration level: 0.9289009131072272
+Decision: WAIT, at time 19241 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.17023301903921495 opponent aspiration level: 0.9320483594827781
+Decision: WAIT, at time 19544 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.16389501000120132 opponent aspiration level: 0.9350909870256482
+Decision: WAIT, at time 19842 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.1577859149440929 opponent aspiration level: 0.9379652250147277
+Decision: WAIT, at time 20140 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.1517976596065157 opponent aspiration level: 0.9407268810119271
+Decision: WAIT, at time 20441 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.14586935594110428 opponent aspiration level: 0.9434065423061369
+Decision: WAIT, at time 20741 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.1400785929640913 opponent aspiration level: 0.9459718280150693
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	13		14		-
+oppAsp	95		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David20
+node id: 746
+David normalized utility: 0.13953489
+Charles normalized utility: 0.03773585
+my asp level: 0.13442186325827532
+opp asp level: 0.9484279220332912
+my orig gub: 58.0
+my e: 21.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 21340 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.1288590395613738 opponent aspiration level: 0.9507952299779187
+Decision: WAIT, at time 21642 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.12337100090683384 opponent aspiration level: 0.9530840571172751
+Decision: WAIT, at time 21939 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.11808111655104803 opponent aspiration level: 0.9552463824351383
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	11		12		-
+oppAsp	96		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David18
+node id: 739
+David normalized utility: 0.11627907
+Charles normalized utility: 0.03773585
+my asp level: 0.11279182087285355
+opp asp level: 0.9573654205803723
+my orig gub: 58.0
+my e: 20.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 22541 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.10767662476218642 opponent aspiration level: 0.9593737673863592
+Decision: WAIT, at time 22841 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.10264634479150614 opponent aspiration level: 0.9613095138659756
+Decision: WAIT, at time 23140 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.09773249591672506 opponent aspiration level: 0.9631628650669061
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	9		9		-
+oppAsp	96		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David17
+node id: 732
+David normalized utility: 0.093023255
+Charles normalized utility: 0.03773585
+my asp level: 0.09288427505522212
+opp asp level: 0.964955054087328
+my orig gub: 58.0
+my e: 19.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 23740 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.08816416432955987 opponent aspiration level: 0.9666651422689916
+Decision: WAIT, at time 24039 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.08353772897606049 opponent aspiration level: 0.9683080271333849
+Decision: WAIT, at time 24344 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.07891304131247767 opponent aspiration level: 0.9699173785454527
+Decision: WAIT, at time 24641 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.07449962694039125 opponent aspiration level: 0.9714225226695069
+Decision: WAIT, at time 24937 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.07018764413913936 opponent aspiration level: 0.9728641312525309
+
+
+---------------------------------------
+	min		f.ByMe		p.2Us
+myAsp	7		7		-
+oppAsp	97		4		-
+
+Nb3Algorithm.acceptOrPropose()
+
+*****Nb3Logger.logProposalMade() WE ARE PROPOSING:
+agent 2 gives 4 units of 3 to agent 4
+agent 4 gives 10 units of 0 to agent 2
+agent 4 gives 10 units of 0 to agent 2
+proposal id: David14
+node id: 725
+David normalized utility: 0.069767445
+Charles normalized utility: 0.03773585
+my asp level: 0.06590383429009017
+opp asp level: 0.9742679936239924
+my orig gub: 58.0
+my e: 18.0
+*****
+
+---------------------------------------
+Decision: WAIT, at time 25536 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.06171917770452873 opponent aspiration level: 0.9756121004269684
+Decision: WAIT, at time 25837 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.05759041024070455 opponent aspiration level: 0.976911850551693
+Decision: WAIT, at time 26137 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.053557432998040166 opponent aspiration level: 0.9781561236347667
+Decision: WAIT, at time 26435 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.04963084807281826 opponent aspiration level: 0.9793435288429623
+Decision: WAIT, at time 26734 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.04576914536031218 opponent aspiration level: 0.980488176455883
+Decision: WAIT, at time 27034 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.04197154984546336 opponent aspiration level: 0.9815914458615991
+Decision: WAIT, at time 27333 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.03826185365434087 opponent aspiration level: 0.9826477544740982
+Decision: WAIT, at time 27636 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.03457762938058273 opponent aspiration level: 0.9836758541049667
+Decision: WAIT, at time 27932 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.03105006820097178 opponent aspiration level: 0.9846406655099965
+
+
+---------------------------------------
+28219 ***Received a CONFIRMATION of proposal David34
+DEAL CONFIRMED: David34
+---------------------------------------
+
+
+Decision: WAIT, at time 28231 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.027557119861134738 opponent aspiration level: 0.985577145403921
+Decision: WAIT, at time 28528 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.02415616589092051 opponent aspiration level: 0.9864709244849722
+Decision: WAIT, at time 28827 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.02080003401622199 opponent aspiration level: 0.9873354785706833
+Decision: WAIT, at time 29127 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.017499616479335844 opponent aspiration level: 0.9881687796334601
+Decision: WAIT, at time 29427 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.014264915935530253 opponent aspiration level: 0.9889692261641428
+Decision: WAIT, at time 29724 Currently none of the deals found by me or proposed to me is selfish enough. my aspiration level: 0.011126012177792965 opponent aspiration level: 0.9897305767346942

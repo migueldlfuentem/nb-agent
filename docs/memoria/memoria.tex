@@ -1,0 +1,94 @@
+% =====================================================================
+%  Memoria de la práctica de negociación automática (NB3)
+%  Sistemas Multiagente — UIMP
+%
+%  Compilar (dos pasadas para referencias e índice):
+%      pdflatex memoria.tex && pdflatex memoria.tex
+%  o subir la carpeta docs/memoria/ a Overleaf.
+% =====================================================================
+\documentclass[11pt,a4paper]{article}
+
+% --- Idioma y codificación -------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+% english se carga para citar el enunciado original; spanish es el idioma principal.
+\usepackage[english,spanish,es-noquoting,es-tabla,es-nodecimaldot]{babel}
+\usepackage{csquotes}
+
+% --- Maquetación -----------------------------------------------------
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{enumitem}
+\setlist{itemsep=0.3em}
+
+% --- Tablas ----------------------------------------------------------
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\renewcommand{\arraystretch}{1.15}
+
+% --- Matemáticas -----------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% --- Código y logs ---------------------------------------------------
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{codebg}{gray}{0.95}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  backgroundcolor=\color{codebg},
+  frame=single,
+  rulecolor=\color{gray!50},
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  literate={×}{{$\times$}}1 {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1 {ñ}{{\~n}}1
+}
+
+% --- Enlaces ---------------------------------------------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+% --- Macros propias --------------------------------------------------
+% Texto de código en línea (nombres de clases, ficheros, mensajes...).
+\newcommand{\code}[1]{\texttt{#1}}
+% Enlace a una ruta del repositorio en GitHub.
+\newcommand{\repourl}{https://github.com/migueldlfuentem/nb-agent/tree/main}
+\newcommand{\repo}[2]{\href{\repourl/#1}{#2}}
+
+% --- Portada ---------------------------------------------------------
+\title{%
+  \textbf{Práctica de Negociación Automática}\\[0.3em]
+  \large Agente negociador basado en el algoritmo NB\textsuperscript{3}\\[0.2em]
+  \large Sistemas Multiagente --- UIMP}
+\author{Nombre Apellidos}  % TODO: completar
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Esta memoria recoge la resolución de los ejercicios de la sección~5 del manual
+  \emph{Implementing an NB\textsuperscript{3} Agent} (D.~de~Jonge, 2015), sobre el dominio
+  \emph{Commodity Market}: cinco agentes que intercambian cinco materias primas mediante el
+  protocolo de negociación no estructurado. El código fuente, los logs de las sesiones y esta
+  memoria están disponibles en el repositorio
+  \href{https://github.com/migueldlfuentem/nb-agent}{\nolinkurl{github.com/migueldlfuentem/nb-agent}}.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\input{ejercicio1}
+
+% \input{ejercicio2}
+% \input{ejercicio3}
+
+\end{document}

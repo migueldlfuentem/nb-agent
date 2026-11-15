@@ -1,0 +1,77 @@
+>> Compilando...
+Note: src/commodityMarket/agent/CmNB3Algorithm.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+>> Ejecutando commodityMarket.agent.RunMarketAndFiveAgents
+RunFiveAgents.main() starting agent Alice
+RunFiveAgents.main() starting agent Bob
+RunFiveAgents.main() starting agent Charles
+CmNegotiator.negotiate() Bob waiting for start message.
+CmNegotiator.negotiate() Alice waiting for start message.
+RunFiveAgents.main() starting agent David
+CmNegotiator.negotiate() Charles waiting for start message.
+RunFiveAgents.main() starting agent Eve
+CmNegotiator.negotiate() David waiting for start message.
+CmNegotiator.negotiate() Eve waiting for start message.
+CommodityMarketNotary.processAgentEntering() Five agents have registered. Let's start!
+
+REQUIREMENTS
+                GOLD       OIL      IRON     GRAIN      WOOD
+     Eve:          0         0         0         5         7
+ Charles:          0        10         0         1         0
+   Alice:          9         0         9         0         0
+     Bob:          0         0         0         7         4
+   David:          0         0         7         1         0
+ASSETS
+     Eve:        282       206       126        71        93
+ Charles:        255       123       115        33       207
+   Alice:         30       170       251        38        64
+     Bob:        236       194       254       255        14
+   David:        197       251       247       244       141
+CmNegotiator.negotiate() Eve Has received start message.
+CmNegotiator.negotiate() Alice Has received start message.
+CmNegotiator.negotiate() Bob Has received start message.
+CmNegotiator.negotiate() David Has received start message.
+CmNegotiator.negotiate() Charles Has received start message.
+
+Negotiation Sever started!
+
+29 seconds to go till deadline.
+28 seconds to go till deadline.
+27 seconds to go till deadline.
+26 seconds to go till deadline.
+25 seconds to go till deadline.
+24 seconds to go till deadline.
+23 seconds to go till deadline.
+22 seconds to go till deadline.
+21 seconds to go till deadline.
+20 seconds to go till deadline.
+19 seconds to go till deadline.
+18 seconds to go till deadline.
+17 seconds to go till deadline.
+16 seconds to go till deadline.
+15 seconds to go till deadline.
+14 seconds to go till deadline.
+13 seconds to go till deadline.
+12 seconds to go till deadline.
+11 seconds to go till deadline.
+10 seconds to go till deadline.
+9 seconds to go till deadline.
+8 seconds to go till deadline.
+7 seconds to go till deadline.
+6 seconds to go till deadline.
+5 seconds to go till deadline.
+4 seconds to go till deadline.
+3 seconds to go till deadline.
+2 seconds to go till deadline.
+1 seconds to go till deadline.
+UTILITIES:
+              BEFORE     AFTER
+     Eve:         13        13
+ Charles:         12        12
+   Alice:          3         3
+     Bob:          3         3
+   David:         35        35
+Server has stopped.
+Negotiations have finished!

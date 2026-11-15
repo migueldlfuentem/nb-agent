@@ -1,0 +1,1751 @@
+
+Server started listenting
+
+received message:
+message ID: Bob_0
+conversation ID: 
+from: Bob
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Bob
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob]
+particle: INFORM
+content: Succes! 
+Registration with name Bob successful.
+
+received message:
+message ID: Eve_0
+conversation ID: 
+from: Eve
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Eve
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve]
+particle: INFORM
+content: Succes! 
+Registration with name Eve successful.
+
+received message:
+message ID: David_0
+conversation ID: 
+from: David
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name David
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David]
+particle: INFORM
+content: Succes! 
+Registration with name David successful.
+
+received message:
+message ID: Alice_0
+conversation ID: 
+from: Alice
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Alice
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice]
+particle: INFORM
+content: Succes! 
+Registration with name Alice successful.
+
+received message:
+message ID: Charles_0
+conversation ID: 
+from: Charles
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Charles
+REQUIREMENTS
+                GOLD       OIL      IRON     GRAIN      WOOD
+     Bob:          0         4         5         0         0
+     Eve:          5         0         0         0         7
+   David:          9         0         0         3         0
+   Alice:          0         0         6         0         7
+ Charles:          0         0         9         2         0
+true
+ASSETS
+     Bob:         76        88        20        91        97
+     Eve:         78        70       114        75       151
+   David:        124        36        55       276        27
+   Alice:         36       277       170       267       174
+ Charles:        150       300       255        30       235
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Bob, Eve, David, Alice, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@581226bd
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@5eca201
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@2c5e09ff
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@26d72b3c
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@6f39d695
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@6dd5d9cd
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@4e3d5aeb
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@5ea42e7b
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@5bc5aaed
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@181d1be9
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@452d195d
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@66dd2a13
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@7b0b8b2a
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@32afc7b1
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@1f65c748
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@4a227c42
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@653299c0
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@4183b03e
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@5f0e30f1
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@617873e
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@3ff7d3ec
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@1fd8817d
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@11635940
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@849baa7
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Bob, Eve, David, Alice, Charles]
+particle: START
+content: [Ljava.io.Serializable;@92070f1
+Registration with name Charles successful.
+
+received message:
+message ID: David_1
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David34
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David34 made by: David
+
+sent message: 
+message ID: David_1
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David34
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_2
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David33
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David33 made by: David
+
+sent message: 
+message ID: David_2
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David33
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_3
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David32
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David32 made by: David
+
+sent message: 
+message ID: David_3
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David32
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_4
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David30
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David30 made by: David
+
+sent message: 
+message ID: David_4
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David30
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_5
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David29
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David29 made by: David
+
+sent message: 
+message ID: David_5
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David29
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_6
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David27
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David27 made by: David
+
+sent message: 
+message ID: David_6
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David27
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_7
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David26
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David26 made by: David
+
+sent message: 
+message ID: David_7
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David26
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_8
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David25
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David25 made by: David
+
+sent message: 
+message ID: David_8
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David25
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_9
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David24
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David24 made by: David
+
+sent message: 
+message ID: David_9
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David24
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_10
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David22
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David22 made by: David
+
+sent message: 
+message ID: David_10
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David22
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: David_11
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David20
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David20 made by: David
+
+sent message: 
+message ID: David_11
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David20
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: Bob_1
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob7
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob7 made by: Bob
+
+sent message: 
+message ID: Bob_1
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob7
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: David_12
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David18
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David18 made by: David
+
+sent message: 
+message ID: David_12
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David18
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: Bob_2
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob8
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob8 made by: Bob
+
+sent message: 
+message ID: Bob_2
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob8
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_3
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob10
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob10 made by: Bob
+
+sent message: 
+message ID: Bob_3
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob10
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_4
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob43
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob43 made by: Bob
+
+sent message: 
+message ID: Bob_4
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob43
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: David_13
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David17
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David17 made by: David
+
+sent message: 
+message ID: David_13
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David17
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: Bob_5
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob53
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob53 made by: Bob
+
+sent message: 
+message ID: Bob_5
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob53
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_6
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob6
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob6 made by: Bob
+
+sent message: 
+message ID: Bob_6
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob6
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_7
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob28 made by: Bob
+
+sent message: 
+message ID: Bob_7
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_7
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Charles_1
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob28 accepted by: Charles
+
+sent message: 
+message ID: Charles_1
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_1
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob28
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Bob_8
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob5
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob5 made by: Bob
+
+sent message: 
+message ID: Bob_8
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob5
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_9
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob42 made by: Bob
+
+sent message: 
+message ID: Bob_9
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_9
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Charles_2
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob42 accepted by: Charles
+
+sent message: 
+message ID: Charles_2
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_2
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob42
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Bob_10
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob71 made by: Bob
+
+sent message: 
+message ID: Bob_10
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_10
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Charles_3
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob71 accepted by: Charles
+
+sent message: 
+message ID: Charles_3
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_3
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob71
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: David_14
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David14
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David14 made by: David
+
+sent message: 
+message ID: David_14
+conversation ID: 
+from: David
+to: [Charles]
+particle: PROPOSE
+content: Proposal ID: David14
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: Bob_11
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob4 made by: Bob
+
+sent message: 
+message ID: Bob_11
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_12
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob62 made by: Bob
+
+sent message: 
+message ID: Bob_12
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_12
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Charles_4
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob62 accepted by: Charles
+
+sent message: 
+message ID: Charles_4
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_4
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob62
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Bob_13
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob52 made by: Bob
+
+sent message: 
+message ID: Bob_13
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_13
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Charles_5
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob52 accepted by: Charles
+
+sent message: 
+message ID: Charles_5
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_5
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob52
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 3 to agent 4]
+
+received message:
+message ID: Bob_14
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob70 made by: Bob
+
+sent message: 
+message ID: Bob_14
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_14
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Charles_6
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob70 accepted by: Charles
+
+sent message: 
+message ID: Charles_6
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_6
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob70
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Bob_15
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob21 made by: Bob
+
+sent message: 
+message ID: Bob_15
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_15
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+received message:
+message ID: Charles_7
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob21 accepted by: Charles
+
+sent message: 
+message ID: Charles_7
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_7
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob21
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+received message:
+message ID: Bob_16
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob3
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob3 made by: Bob
+
+sent message: 
+message ID: Bob_16
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob3
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_17
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob69 made by: Bob
+
+sent message: 
+message ID: Bob_17
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_17
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+received message:
+message ID: Charles_8
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob69 accepted by: Charles
+
+sent message: 
+message ID: Charles_8
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_8
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob69
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 8 units of 3 to agent 4]
+
+received message:
+message ID: Bob_18
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob41 made by: Bob
+
+sent message: 
+message ID: Bob_18
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_18
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Charles_9
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob41 accepted by: Charles
+
+sent message: 
+message ID: Charles_9
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_9
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob41
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Bob_19
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob23 made by: Bob
+
+sent message: 
+message ID: Bob_19
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_19
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Charles_10
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob23 accepted by: Charles
+
+sent message: 
+message ID: Charles_10
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Charles_10
+conversation ID: 
+from: Charles
+to: [Bob, Eve]
+particle: ACCEPT
+content: Proposal ID: Bob23
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Bob_20
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob2
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob2 made by: Bob
+
+sent message: 
+message ID: Bob_20
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob2
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Charles_11
+conversation ID: 
+from: Charles
+to: [David]
+particle: ACCEPT
+content: Proposal ID: David34
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+Notary.handleIncomingMessage() proposal David34 accepted by: Charles
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [David, Charles]
+David supplies 4 units of GRAIN to Charles
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+Charles supplies 10 units of GOLD to David
+
+Notary.handleIncomingMessage() proposal CONFIRMED: David34
+
+sent message: 
+message ID: unknown
+conversation ID: 
+from: NOTARY
+to: [David, Charles]
+particle: CONFIRM
+content: Proposal ID: David34
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+sent message: 
+message ID: unknown
+conversation ID: 
+from: NOTARY
+to: [David, Charles]
+particle: CONFIRM
+content: Proposal ID: David34
+Participants: [David, Charles]
+Proposed Deal: [agent 2 gives 4 units of 3 to agent 4, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2, agent 4 gives 10 units of 0 to agent 2]
+
+received message:
+message ID: Bob_21
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob51
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+Notary.handleIncomingMessage() proposal Bob51 made by: Bob
+
+sent message: 
+message ID: Bob_21
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob51
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+sent message: 
+message ID: Bob_21
+conversation ID: 
+from: Bob
+to: [Eve, Charles]
+particle: PROPOSE
+content: Proposal ID: Bob51
+Participants: [Bob, Eve, Charles]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 9 units of 3 to agent 4]
+
+received message:
+message ID: Eve_1
+conversation ID: 
+from: Eve
+to: [Bob]
+particle: ACCEPT
+content: Proposal ID: Bob7
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob7 accepted by: Eve
+CommodityMarketNotary.verifyValidity() DEAL CONFIRMED: Agents: [Bob, Eve]
+Bob supplies 7 units of GOLD to Eve
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+Eve supplies 10 units of IRON to Bob
+
+Notary.handleIncomingMessage() proposal CONFIRMED: Bob7
+
+sent message: 
+message ID: unknown
+conversation ID: 
+from: NOTARY
+to: [Bob, Eve]
+particle: CONFIRM
+content: Proposal ID: Bob7
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+sent message: 
+message ID: unknown
+conversation ID: 
+from: NOTARY
+to: [Bob, Eve]
+particle: CONFIRM
+content: Proposal ID: Bob7
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_22
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4050
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 1 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob4050 made by: Bob
+
+sent message: 
+message ID: Bob_22
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4050
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 1 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+received message:
+message ID: Bob_23
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4096
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 1 to agent 0, agent 1 gives 6 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Bob4096 made by: Bob
+
+sent message: 
+message ID: Bob_23
+conversation ID: 
+from: Bob
+to: [Eve]
+particle: PROPOSE
+content: Proposal ID: Bob4096
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 1 gives 10 units of 1 to agent 0, agent 1 gives 6 units of 2 to agent 0]
+
+received message:
+message ID: Eve_2
+conversation ID: 
+from: Eve
+to: [Bob]
+particle: PROPOSE
+content: Proposal ID: Eve4052
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 0 gives 10 units of 4 to agent 1, agent 1 gives 4 units of 1 to agent 0, agent 1 gives 10 units of 2 to agent 0]
+
+Notary.handleIncomingMessage() proposal Eve4052 made by: Eve
+
+sent message: 
+message ID: Eve_2
+conversation ID: 
+from: Eve
+to: [Bob]
+particle: PROPOSE
+content: Proposal ID: Eve4052
+Participants: [Bob, Eve]
+Proposed Deal: [agent 0 gives 7 units of 0 to agent 1, agent 0 gives 10 units of 4 to agent 1, agent 1 gives 4 units of 1 to agent 0, agent 1 gives 10 units of 2 to agent 0]

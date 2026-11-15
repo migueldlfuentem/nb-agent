@@ -1,0 +1,390 @@
+
+Server started listenting
+
+received message:
+message ID: Eve_0
+conversation ID: 
+from: Eve
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Eve
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve]
+particle: INFORM
+content: Succes! 
+Registration with name Eve successful.
+
+received message:
+message ID: Charles_0
+conversation ID: 
+from: Charles
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Charles
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles]
+particle: INFORM
+content: Succes! 
+Registration with name Charles successful.
+
+received message:
+message ID: Alice_0
+conversation ID: 
+from: Alice
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Alice
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice]
+particle: INFORM
+content: Succes! 
+Registration with name Alice successful.
+
+received message:
+message ID: Bob_0
+conversation ID: 
+from: Bob
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name Bob
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob]
+particle: INFORM
+content: Succes! 
+Registration with name Bob successful.
+
+received message:
+message ID: David_0
+conversation ID: 
+from: David
+to: [server]
+particle: REGISTER
+content: Requesting to register to the conversation with id: , playing role: null
+
+Agent tries to register with name David
+REQUIREMENTS
+                GOLD       OIL      IRON     GRAIN      WOOD
+     Eve:          0         0         0         5         7
+ Charles:          0        10         0         1         0
+   Alice:          9         0         9         0         0
+     Bob:          0         0         0         7         4
+   David:          0         0         7         1         0
+true
+ASSETS
+     Eve:        282       206       126        71        93
+ Charles:        255       123       115        33       207
+   Alice:         30       170       251        38        64
+     Bob:        236       194       254       255        14
+   David:        197       251       247       244       141
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: null
+to: [Eve, Charles, Alice, Bob, David]
+particle: INFORM
+content: Succes! 
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@7ce02f9
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@246ba8e7
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@11c525c5
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@facc5f
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@77d4df73
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@31e24460
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@3409312f
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@16ae0872
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@17b11ce8
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@34d39b3a
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@18ce6025
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@237d8f8e
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@259e8e08
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@7419b38d
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@1f3d3a63
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@4e68680d
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@ead24a
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@66a9726f
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@5bfeb7db
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@56db94a9
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@978ccdd
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@2203b9fc
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@1d782521
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@7de26af1
+
+sent message: 
+message ID: unknown
+conversation ID: 0
+from: NOTARY
+to: [Eve, Charles, Alice, Bob, David]
+particle: START
+content: [Ljava.io.Serializable;@32b34fb4
